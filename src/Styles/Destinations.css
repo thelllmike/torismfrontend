@@ -1,0 +1,54 @@
+.destinations {
+  display: flex;
+}
+
+.destinationPage .destination-banner {
+  width: 100%;
+  height: 432px;
+  object-fit: cover;
+}
+
+.left-sidebar {
+    width: 372px;
+    border-right: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  .left-sidebar h2 {
+    margin-bottom: 10px;
+    color: #1b1818;
+    margin-left: 12px;
+  }
+  
+  .left-sidebar label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 2px;
+  }
+  
+  .left-sidebar label input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+  
+  .left-sidebar .province-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .left-sidebar .province-col {
+    width: 50%;
+  }
+
+  .Right-Panel h2{
+    margin-left: 472px;
+    font-size: 1.9rem;
+  }
+  
+  @media (max-width: 600px) {
+    .left-sidebar .province-col {
+      width: 100%;
+    }
+  }
+  
